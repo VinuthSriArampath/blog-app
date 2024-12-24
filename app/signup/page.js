@@ -39,7 +39,7 @@ export default function signUp() {
         setLoading(false);
       } else {
         console.log(data);
-        alert("Successfully Registered!");
+        alert("Successfully Registered! Verify your Email Address");
         setLoading(false);
       }
     } else {
